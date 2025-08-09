@@ -533,7 +533,6 @@ a {
 .subscribe-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px; /* відстань між заголовком та формою */
   margin-left: 80px;
 }
 
@@ -611,7 +610,7 @@ a {
 /* Показ модалки */
 .backdrop.is-open {
   opacity: 1;
-  visibility: visible;
+  /* visibility: visible; */
   pointer-events: auto;
 }
 
